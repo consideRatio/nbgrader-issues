@@ -65,3 +65,101 @@
 [NotebookApp | INFO] Shutting down kernels
 [NotebookApp | INFO] Kernel shutdown: a41f50a2-37ae-46f7-9e99-cce6796adf72
 [NotebookApp | INFO] Kernel shutdown: 356d2cf9-3728-486c-9140-a7769ad67e28
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: C:\Users\Erik\dev\edu\nbgrader-issues
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=57f4858d3bad6fec64aa7b522d01ca80db5659775856c6a6
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=57f4858d3bad6fec64aa7b522d01ca80db5659775856c6a6
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook source/header.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 119623e0-3133-4df0-bcb3-88f356bf8496
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 119623e0-3133-4df0-bcb3-88f356bf8496
+[NotebookApp | WARNING] 404 GET /favicon.ico (::1) 12.03ms referer=http://localhost:8888/formgrader
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | WARNING] Removing existing assignment: C:\Users\Erik\dev\edu\nbgrader-issues\release\ps1
+[NotebookApp | INFO] Copying C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\jupyter.png -> C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\jupyter.png
+[NotebookApp | INFO] Updating/creating assignment 'ps1': {}
+[NotebookApp | INFO] Converting notebook C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\problem1.ipynb
+[NotebookApp | INFO] Writing 9142 bytes to C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\problem1.ipynb
+[NotebookApp | INFO] Converting notebook C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\problem2.ipynb
+[NotebookApp | INFO] Writing 3516 bytes to C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\problem2.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | WARNING] Notebook release/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/jupyter.png (::1) 1.00ms
+[NotebookApp | INFO] Kernel started: c73c1a87-d9cf-49f4-8872-4c6a50b5e098
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel c73c1a87-d9cf-49f4-8872-4c6a50b5e098
+[NotebookApp | INFO] Saving file at /release/ps1/problem1.ipynb
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | WARNING] Removing existing assignment: C:\Users\Erik\dev\edu\nbgrader-issues\release\ps1
+[NotebookApp | ERROR] There was an error processing assignment: C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "C:\Programs\Anaconda3\lib\site-packages\nbgrader\converters\base.py", line 284, in convert_notebooks
+        should_process = self.init_destination(gd['assignment_id'], gd['student_id'])
+      File "C:\Programs\Anaconda3\lib\site-packages\nbgrader\converters\base.py", line 178, in init_destination
+        rmtree(dest)
+      File "C:\Programs\Anaconda3\lib\site-packages\nbgrader\utils.py", line 233, in rmtree
+        shutil.rmtree(path)
+      File "C:\Programs\Anaconda3\lib\shutil.py", line 494, in rmtree
+        return _rmtree_unsafe(path, onerror)
+      File "C:\Programs\Anaconda3\lib\shutil.py", line 393, in _rmtree_unsafe
+        onerror(os.rmdir, path, sys.exc_info())
+      File "C:\Programs\Anaconda3\lib\shutil.py", line 391, in _rmtree_unsafe
+        os.rmdir(path)
+    PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Erik\\dev\\edu\\nbgrader-issues\\release\\ps1'
+    
+[NotebookApp | WARNING] Removing failed assignment: C:\Users\Erik\dev\edu\nbgrader-issues\release\ps1
+[NotebookApp | WARNING] Removing existing assignment: C:\Users\Erik\dev\edu\nbgrader-issues\release\ps1
+[NotebookApp | ERROR] There was an error processing assignment: C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "C:\Programs\Anaconda3\lib\site-packages\nbgrader\converters\base.py", line 284, in convert_notebooks
+        should_process = self.init_destination(gd['assignment_id'], gd['student_id'])
+      File "C:\Programs\Anaconda3\lib\site-packages\nbgrader\converters\base.py", line 178, in init_destination
+        rmtree(dest)
+      File "C:\Programs\Anaconda3\lib\site-packages\nbgrader\utils.py", line 233, in rmtree
+        shutil.rmtree(path)
+      File "C:\Programs\Anaconda3\lib\shutil.py", line 494, in rmtree
+        return _rmtree_unsafe(path, onerror)
+      File "C:\Programs\Anaconda3\lib\shutil.py", line 393, in _rmtree_unsafe
+        onerror(os.rmdir, path, sys.exc_info())
+      File "C:\Programs\Anaconda3\lib\shutil.py", line 391, in _rmtree_unsafe
+        os.rmdir(path)
+    PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Erik\\dev\\edu\\nbgrader-issues\\release\\ps1'
+    
+[NotebookApp | WARNING] Removing failed assignment: C:\Users\Erik\dev\edu\nbgrader-issues\release\ps1
+[NotebookApp | INFO] Interrupted...
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 119623e0-3133-4df0-bcb3-88f356bf8496
+[NotebookApp | INFO] Kernel shutdown: c73c1a87-d9cf-49f4-8872-4c6a50b5e098
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: C:\Users\Erik\dev\edu\nbgrader-issues
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=5e1d0ffb0c5e4fb1bf524cb162612a3cc74be82dae6ffe1e
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=5e1d0ffb0c5e4fb1bf524cb162612a3cc74be82dae6ffe1e
+[NotebookApp | WARNING] 404 GET /api/kernels/119623e0-3133-4df0-bcb3-88f356bf8496/channels?session_id=B646AA443C074BAD86B5D736F4484AC2 (::1): Kernel does not exist: 119623e0-3133-4df0-bcb3-88f356bf8496
+[NotebookApp | WARNING] 404 GET /api/kernels/119623e0-3133-4df0-bcb3-88f356bf8496/channels?session_id=B646AA443C074BAD86B5D736F4484AC2 (::1) 28.08ms referer=None
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Removing existing assignment: C:\Users\Erik\dev\edu\nbgrader-issues\release\ps1
+[NotebookApp | INFO] Copying C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\jupyter.png -> C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\jupyter.png
+[NotebookApp | INFO] Updating/creating assignment 'ps1': {}
+[NotebookApp | INFO] Converting notebook C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\problem1.ipynb
+[NotebookApp | INFO] Writing 9055 bytes to C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\problem1.ipynb
+[NotebookApp | INFO] Converting notebook C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\problem2.ipynb
+[NotebookApp | INFO] Writing 3429 bytes to C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\problem2.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | WARNING] Notebook release/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/jupyter.png (::1) 0.00ms
+[NotebookApp | INFO] Interrupted...
+[NotebookApp | INFO] Shutting down kernels
