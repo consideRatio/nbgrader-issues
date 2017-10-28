@@ -163,3 +163,54 @@
 [NotebookApp | INFO] 302 GET /notebooks/release/ps1/jupyter.png (::1) 0.00ms
 [NotebookApp | INFO] Interrupted...
 [NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: C:\Users\Erik\dev\edu\nbgrader-issues
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=a709b339ad72ba29b4b1a69db92190598106fc57bf54ebc1
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=a709b339ad72ba29b4b1a69db92190598106fc57bf54ebc1
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook source/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/source/ps1/jupyter.png (::1) 1.00ms
+[NotebookApp | WARNING] Notebook source/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/source/ps1/jupyter.png (::1) 1.00ms
+[NotebookApp | WARNING] Notebook release/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/jupyter.png (::1) 1.00ms
+[NotebookApp | INFO] 302 GET /notebooks/source/ps1/jupyter.png (::1) 0.00ms
+[NotebookApp | INFO] Saving file at /source/ps1/problem1.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/problem1.ipynb
+[NotebookApp | INFO] Kernel started: f5bcb9e2-b65f-4760-9d40-bf9393db0927
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f5bcb9e2-b65f-4760-9d40-bf9393db0927
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | INFO] Kernel shutdown: f5bcb9e2-b65f-4760-9d40-bf9393db0927
+[NotebookApp | WARNING] Removing existing assignment: C:\Users\Erik\dev\edu\nbgrader-issues\release\ps1
+[NotebookApp | INFO] Copying C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\jupyter.png -> C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\jupyter.png
+[NotebookApp | INFO] Updating/creating assignment 'ps1': {}
+[NotebookApp | INFO] Converting notebook C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\problem1.ipynb
+[NotebookApp | INFO] Writing 8600 bytes to C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\problem1.ipynb
+[NotebookApp | INFO] Converting notebook C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\problem2.ipynb
+[NotebookApp | INFO] Writing 2798 bytes to C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\problem2.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | WARNING] Notebook release/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/jupyter.png (::1) 1.00ms
+[NotebookApp | INFO] 302 GET /notebooks/source/ps1/jupyter.png (::1) 1.00ms
+[NotebookApp | INFO] Kernel started: 988ee4d6-9252-4f79-ac39-5510dfa09dc6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 988ee4d6-9252-4f79-ac39-5510dfa09dc6
+[NotebookApp | INFO] Saving file at /source/ps1/problem1.ipynb
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | INFO] Kernel shutdown: 988ee4d6-9252-4f79-ac39-5510dfa09dc6
+[NotebookApp | WARNING] Removing existing assignment: C:\Users\Erik\dev\edu\nbgrader-issues\release\ps1
+[NotebookApp | INFO] Copying C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\jupyter.png -> C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\jupyter.png
+[NotebookApp | INFO] Updating/creating assignment 'ps1': {}
+[NotebookApp | INFO] Converting notebook C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\problem1.ipynb
+[NotebookApp | INFO] Writing 1634 bytes to C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\problem1.ipynb
+[NotebookApp | INFO] Converting notebook C:\Users\Erik\dev\edu\nbgrader-issues\source\.\ps1\problem2.ipynb
+[NotebookApp | INFO] Writing 1792 bytes to C:\Users\Erik\dev\edu\nbgrader-issues\release\.\ps1\problem2.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | WARNING] Notebook release/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] Interrupted...
+[NotebookApp | INFO] Shutting down kernels
