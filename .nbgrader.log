@@ -1,0 +1,67 @@
+[NbGraderApp | INFO] New config file saved to 'nbgrader_config.py'
+[ReleaseApp | WARNING] Creating exchange directory: /srv/nbgrader/exchange
+[ReleaseApp | CRITICAL] Could not create /srv/nbgrader/exchange, permission denied.
+[ReleaseApp | ERROR] nbgrader release failed
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/erik/dev/edu/nbgrader-issues
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8890/?token=23aca6e01cbbba375df93d72cc964320df80b15e7e098e26
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8890/?token=23aca6e01cbbba375df93d72cc964320df80b15e7e098e26
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] 404 GET /favicon.ico (127.0.0.1) 4.22ms referer=http://localhost:8890/formgrader
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Copying /home/erik/dev/edu/nbgrader-issues/source/./ps1/jupyter.png -> /home/erik/dev/edu/nbgrader-issues/release/./ps1/jupyter.png
+[NotebookApp | INFO] Updating/creating assignment 'ps1': {}
+[NotebookApp | INFO] Converting notebook /home/erik/dev/edu/nbgrader-issues/source/./ps1/problem1.ipynb
+[NotebookApp | INFO] Writing 8695 bytes to /home/erik/dev/edu/nbgrader-issues/release/./ps1/problem1.ipynb
+[NotebookApp | INFO] Converting notebook /home/erik/dev/edu/nbgrader-issues/source/./ps1/problem2.ipynb
+[NotebookApp | INFO] Writing 3069 bytes to /home/erik/dev/edu/nbgrader-issues/release/./ps1/problem2.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Notebook release/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: f0f6c5a9-b18a-47b7-b454-72de47c4a93d
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/jupyter.png (127.0.0.1) 0.73ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171028141831 (127.0.0.1) 0.98ms referer=http://localhost:8890/notebooks/release/ps1/problem1.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f0f6c5a9-b18a-47b7-b454-72de47c4a93d
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: f0f6c5a9-b18a-47b7-b454-72de47c4a93d
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/erik/dev/edu/nbgrader-issues
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8889/?token=ce853430661253b8f5131f509a31bdf600b1882d3cce1ea6
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=ce853430661253b8f5131f509a31bdf600b1882d3cce1ea6
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | WARNING] Notebook source/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: a41f50a2-37ae-46f7-9e99-cce6796adf72
+[NotebookApp | INFO] 302 GET /notebooks/source/ps1/jupyter.png (127.0.0.1) 0.57ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171028143259 (127.0.0.1) 5.76ms referer=http://localhost:8889/notebooks/source/ps1/problem1.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a41f50a2-37ae-46f7-9e99-cce6796adf72
+[NotebookApp | INFO] Kernel started: 356d2cf9-3728-486c-9140-a7769ad67e28
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171028143259 (127.0.0.1) 1.33ms referer=http://localhost:8889/notebooks/source/header.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 356d2cf9-3728-486c-9140-a7769ad67e28
+[NotebookApp | INFO] interrupted
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 356d2cf9-3728-486c-9140-a7769ad67e28
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171028143259 (127.0.0.1) 1.00ms referer=http://localhost:8889/notebooks/source/header.ipynb
+[NotebookApp | INFO] Saving file at /source/header.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: a41f50a2-37ae-46f7-9e99-cce6796adf72
+[NotebookApp | INFO] Kernel shutdown: 356d2cf9-3728-486c-9140-a7769ad67e28

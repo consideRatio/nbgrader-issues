@@ -1,0 +1,30 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/erik/dev/edu/nbgrader-issues/source
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8889/?token=12a2be957a867e168bf6f2f86e3fa9db908eb6a86a7593dc
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=12a2be957a867e168bf6f2f86e3fa9db908eb6a86a7593dc
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | WARNING] Notebook header.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: e9e51756-b12e-4d78-98f1-5985b8de3c48
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171028141051 (127.0.0.1) 4.20ms referer=http://localhost:8889/notebooks/header.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel e9e51756-b12e-4d78-98f1-5985b8de3c48
+[NotebookApp | INFO] Saving file at /header.ipynb
+[NotebookApp | INFO] Saving file at /header.ipynb
+[NotebookApp | INFO] Saving file at /header.ipynb
+[NotebookApp | INFO] Saving file at /header.ipynb
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] 404 GET /favicon.ico (127.0.0.1) 1.20ms referer=http://localhost:8889/formgrader
+[NotebookApp | INFO] interrupted
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: e9e51756-b12e-4d78-98f1-5985b8de3c48
